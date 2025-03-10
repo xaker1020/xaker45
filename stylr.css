@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    justify-content: baseline;
+justify-content: space-between;
+gap: 100px;
+}
+
+body{
+    background: #101220;
+color: white;
+padding-left: 35px;
+}
+select{
+    text-align: center;
+    background: #101220;
+    color: white;
+}
+.div1{
+    display: flex;
+   
+gap: 30PX;
+}
+.div2{
+    display: flex ;
+  text-align: center;
+gap: 20px;
+align-items: center;
+    padding-right: 25px;
+    border: none;
+}
+.btn{
+    width: 175px;
+height: 50px;
+border-radius: 15px;
+background: #BFAFF2;
+text-align: center;
+
+}
+.div2 p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: right;
+
+}
+main{
+    margin-top: 50px;
+    margin-right: 1000px;
+}
+.text{
+    width: 325px;
+height: 240px;
+border-radius: 32px;
+background: #232028;
+padding-top: 92px;
+text-align: center;
+}
+.rasm{
+    margin-bottom: -70px;
+    margin-left: 40px;
+}
+.card{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+main .container{
+    display: flex;
+    gap: 20px;
+
+
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    font-size: 20pxf;
+    padding-top: 100px;
+
+}
+footer .container div{
+    display: flex;
+    gap: 40px;
+}
+
+footer .container p{
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
